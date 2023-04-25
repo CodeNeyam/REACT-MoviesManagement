@@ -1,0 +1,111 @@
+.movies-database-container {
+  display: flex;
+  margin-top: 4%;
+  margin-bottom: 3%;
+}
+.header-movies {
+  padding: 1%;
+  background-color: black;
+  color: white;
+}
+.movies-database-sidebar {
+  width: 40%;
+  border: 1px solid rgb(201, 201, 201);
+  background: white;
+  padding: 10px;
+  border-radius: 20px;
+}
+.btn-container {
+  display: inline-block !important;
+  margin-right: 10px !important; /* Adjust as needed */
+}
+
+.btn-search {
+  background-color: rgba(36, 132, 211, 0.719) !important;
+  border: none !important;
+  color: white !important;
+  padding: 15px 32px !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  font-size: 16px !important;
+  cursor: pointer;
+  display: block !important;
+  border-radius: 10px;
+}
+
+.btn-clear {
+  background-color: grey !important;
+  border: none !important;
+  color: white !important;
+  padding: 15px 32px !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  font-size: 16px !important;
+  cursor: pointer;
+  display: block !important;
+  border-radius: 10px;
+}
+
+.btn-search:hover {
+  background-color: rgba(11, 80, 230, 0.719) !important;
+}
+.btn-clear:hover {
+  background-color: rgb(80, 80, 80) !important;
+}
+
+.btn-search:active,
+.btn-clear:active {
+  background-color: #3e8e41 !important;
+  box-shadow: 0 5px #666 !important;
+  transform: translateY(4px) !important;
+}
+.movies-database-search {
+  margin-bottom: 10px;
+}
+.movies-database-content {
+  margin-left: 3%;
+}
+
+.movies-database-pagination {
+  display: inline;
+}
+.movies-database-sorting {
+  display: inline;
+  margin-left: 70%;
+}
+.movies-database-sorting select {
+  border: 1px solid rgb(201, 201, 201);
+  border-radius: 8px;
+  padding: 5px;
+  margin-left: 2%;
+}
+.movies-database-sort-label {
+  position: inherit;
+}
+
+.movies-database-input {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 5px;
+}
+
+.movies-database-clear {
+  margin-left: 10px;
+}
+
+.movies-database-clear-button {
+  background: red;
+}
+
+.movies-database-clear-button:hover {
+  background: darkred;
+  transition: background 0.3s ease-in-out;
+}
+
+.movies-database-footer {
+  background: black;
+  color: black;
+  padding: 20px;
+  text-align: center;
+}
